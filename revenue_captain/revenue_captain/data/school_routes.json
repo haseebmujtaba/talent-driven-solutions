@@ -1,0 +1,7 @@
+[
+  { "school_id": "sch_01", "contact_email": "admissions@sch01.edu", "status": "active", "last_checked_at": "2026-06-01T00:00:00Z" },
+  { "school_id": "sch_02", "contact_email": "admissions@sch02.edu", "status": "active", "last_checked_at": "2026-06-01T00:00:00Z" },
+  { "school_id": "sch_03", "contact_email": "admissions@sch03.edu", "status": "active", "last_checked_at": "2026-06-01T00:00:00Z" },
+  { "school_id": "sch_04", "contact_email": "admissions@sch04.edu", "status": "active", "last_checked_at": "2026-06-01T00:00:00Z" },
+  { "school_id": "sch_05", "contact_email": "admissions@sch05.edu", "status": "bounced", "last_checked_at": "2026-06-10T09:06:00Z" }
+]
