@@ -1,0 +1,39 @@
+.cat-section {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 108px;
+}
+
+.cat-section:last-child {
+  border-bottom: none;
+}
+
+.cat-section h3 {
+  font-size: 22px;
+  padding-left: 18px;
+  border-left: 3px solid var(--gold);
+  margin-bottom: 14px;
+}
+
+.cat-section__desc {
+  color: var(--slate);
+  font-size: 15.5px;
+  max-width: 62ch;
+  margin-bottom: 20px;
+}
+
+.cat-section__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.cat-section__tags li {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--navy-800);
+  background: var(--offwhite);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+}

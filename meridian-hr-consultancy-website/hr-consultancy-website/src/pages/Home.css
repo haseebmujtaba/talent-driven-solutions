@@ -1,0 +1,170 @@
+/* Hero */
+.hero {
+  background: var(--navy-950);
+  color: var(--white);
+  padding: 88px 0 96px;
+  overflow: hidden;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 560px;
+}
+
+.hero__text h1 {
+  color: var(--white);
+  font-size: clamp(34px, 4.4vw, 50px);
+  letter-spacing: -0.01em;
+}
+
+.hero__text p {
+  color: var(--slate-light);
+  font-size: 17px;
+  max-width: 50ch;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.hero__diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__diagram-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+}
+
+/* Pillars */
+.pillars__head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.pillars__head h2 {
+  font-size: clamp(26px, 3vw, 34px);
+}
+
+.pillars__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Approach */
+.approach {
+  background: var(--offwhite);
+  padding: 96px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.approach__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+
+.approach__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.approach__text h2 {
+  font-size: clamp(26px, 3vw, 32px);
+  max-width: 14ch;
+}
+
+.approach__text p {
+  color: var(--slate);
+  font-size: 15.5px;
+  max-width: 46ch;
+}
+
+.approach__list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.approach__list li {
+  padding-left: 20px;
+  border-left: 3px solid var(--gold);
+}
+
+.approach__list-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--navy-800);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.approach__list p {
+  color: var(--slate);
+  font-size: 14.5px;
+}
+
+/* CTA band */
+.cta-band {
+  padding: 72px 0;
+}
+
+.cta-band__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cta-band__inner h2 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.cta-band__inner p {
+  color: var(--slate);
+  font-size: 15px;
+}
+
+@media (max-width: 960px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__diagram {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .pillars__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach__inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
